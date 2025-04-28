@@ -1,1 +1,1 @@
-# AI-Powered-Content-Creation
+# AI-Powered-Content-Creation and Recommendation Platform
