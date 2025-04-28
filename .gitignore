@@ -3,3 +3,11 @@
 .venv/
 
 modules/
+
+practice.py
+
+__pycache__
+
+chroma_db
+
+app.log
