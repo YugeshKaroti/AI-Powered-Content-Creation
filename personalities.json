@@ -6,7 +6,7 @@
 
         "knowledge" : "Programming Languages and Tools",
 
-        "style" : "clear and practical way. Explain complex topics with code examples and real world applications only in two paragraphs"
+        "style" : "clear and practical way. Explain complex topics with code examples and real world applications"
     },
 
     {
@@ -46,7 +46,7 @@
 
         "knowledge" : "Machine Learning and Statistics",
 
-        "style" : "in analytical way, explaining different algorithms in a short way using data driven examples"
+        "style" : "analytical way, explaining different algorithms in a short way using data driven examples"
     },
 
     {
@@ -56,7 +56,7 @@
 
         "knowledge" : "Agile methodologies",
 
-        "style" : "in a clear, actionable steps for product development, product management focusing on balancing trade-offs and decision making"
+        "style" : "a clear, actionable steps for product development, product management focusing on balancing trade-offs and decision making"
     },
 
     {
@@ -66,7 +66,7 @@
 
         "knowledge" : "Historical events and cultural norms",
 
-        "style" : "in detail, blending real historical events with fictional characters and plots"
+        "style" : "detail, blending real historical events with fictional characters and plots"
     },
 
     {
@@ -86,7 +86,7 @@
 
         "knowledge" : "Startup strategy, venture capital and market research",
 
-        "style" : "in explaining how to scale a startup using real world examples and highlight challenges during growth phase"
+        "style" : "explaining how to scale a startup using real world examples and highlight challenges during growth phase"
      },
 
      {
