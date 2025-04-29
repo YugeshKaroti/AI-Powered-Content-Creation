@@ -36,8 +36,6 @@ from chromadb import PersistentClient
 
 from chromadb.config import Settings
 
-import sqlite3
-
 import json
 
 from log_config import logging
@@ -50,7 +48,7 @@ import os
 
 load_dotenv()
 
-os.environ["CHROMA_TELEMETRY"] = "False" # To not record the chroma db anonymous events in log file
+os.environ["CHROMA_TELEMETRY"] = "False" 
 
 api = os.getenv("gemini_api")
 
@@ -96,12 +94,9 @@ class Text_Generation_Revision:
 
             if inf.shape[0] != 1:
 
-                #print("".join(inf.sort_values("created_at").iloc[-1]))
-
                 content_ = "".join(inf.sort_values("created_at").iloc[-1])
 
             else:
-                #print("".join(inf.iloc[-1]))
 
                 content_ = "".join(inf.iloc[-1])
 
@@ -173,7 +168,7 @@ class Text_Generation_Revision:
 
                 values.append(number)
 
-            sentences = sent_tokenize(re.sub("http[s]\:\/\/.+? +", "", content_))
+            sentences = sent_tokenize(re.sub(r"\[?\(?http[s]?://[^\s\]\)]+\]?\)?", "", content_))
 
             sentence_embeddings = embed_model.encode(sentences)
 
